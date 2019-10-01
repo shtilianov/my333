@@ -159,6 +159,7 @@
     "DisplayElementImagePreview": true,
     "ElementImageThreshold": 90,
     "ElementImageSearchTimeout": 15000,
+    "SearchByImageFirst": false,
     "ElementImageSearchDelay": 100,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
@@ -167,9 +168,9 @@
     "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-    "QcUserName": "webui",
-    "QcPassword": "Bt6/TQp8sw8=",
-    "QcSkipAuthDialog": true,
+    "QcUserName": "",
+    "QcPassword": "",
+    "QcSkipAuthDialog": false,
     "QcDomain": null,
     "QcProject": null,
     "TfsUserName": "",
@@ -187,8 +188,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "d0958ad3-8052-4115-b2cd-30435e861002",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/shtilianov/my333.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/shtilianov/my333.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
@@ -214,13 +227,13 @@
     "ExcludedFiles": [],
     "InDevelopmentFiles": [],
     "DisabledTranslators": [],
-    "SkipFindExpressionSetDataDrivenWarning": true,
+    "SkipFindExpressionSetDataDrivenWarning": false,
     "BugTrackerPersistableSettings": {},
     "ActiveBugTrackers": [],
     "BugTitleMask": "{Step name} step on {Test name} test failed.",
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 3
+    "SelectedBrowserOption": 4
   }
 }
