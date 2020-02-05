@@ -37,6 +37,7 @@
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
                 "BaseUrl": "http://localhost:8080/",
+                "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -80,6 +81,7 @@
               "__value": {
                 "Comment": "Next Step will fail on purpose, because the find logic is not correct.",
                 "WaitOnElementsTimeout": 0,
+                "SearchByImageFirst": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "Pause": 0,
@@ -124,6 +126,7 @@
                 "AjaxTimeout": 0,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 5000,
+                "SearchByImageFirst": 0,
                 "UseStepWaitOnElementsTimout": true,
                 "WaitOnElements": true,
                 "RunsAgainstVersion": "",
@@ -228,6 +231,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.AlertDialogHandlerDescriptor",
               "__value": {
+                "SearchByImageFirst": 0,
                 "HandlerTimeout": 20000,
                 "DialogType": 0,
                 "HandleButton": 0,

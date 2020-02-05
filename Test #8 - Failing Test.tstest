@@ -37,6 +37,7 @@
                 "UseDecodedUrl": true,
                 "NavigateURL": "http://www.bing.com",
                 "BaseUrl": "",
+                "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -81,6 +82,7 @@
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
                 "BaseUrl": "http://demos.teststudio.com/sampleapp",
+                "SearchByImageFirst": 0,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -127,6 +129,7 @@
                 "WaitOnElements": false,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
+                "SearchByImageFirst": 0,
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -162,6 +165,7 @@
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
               "__value": {
+                "SearchByImageFirst": 0,
                 "ExistsNot": false,
                 "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
